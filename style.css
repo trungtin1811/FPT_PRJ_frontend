@@ -1682,3 +1682,20 @@ input::-webkit-inner-spin-button {
     padding: 15px 0;
     color: #fff;
 }
+
+.cart-headers{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cart-headers div{
+    padding: 0;
+}
+
+.cart-headers div:first-child{
+    padding-left: 40px;
+}
+
+.cart-headers div:last-child{
+    padding-right: 40px;
+}
