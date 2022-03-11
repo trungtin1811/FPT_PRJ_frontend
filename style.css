@@ -1700,8 +1700,10 @@ input::-webkit-inner-spin-button {
     padding-right: 40px;
 }
 
-.confirm-order .cart .cart-item .cart-item-quantity .input-group{
+.checkout .cart .cart-item .cart-item-quantity .input-group{
     border:none;
     text-align: center;
     justify-content: center;
 }
+
+/
