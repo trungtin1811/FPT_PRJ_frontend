@@ -100,29 +100,31 @@
         </div>
         </div>
     </header>
-    <div id="detail">
-        <div class="detail-img">
-            <img src="https://www.moby.com.vn/data/bt7/sua-tuoi-tiet-trung-vinamilk-100-co-duong-180ml-thung-48-hop-1_1623398664.jpg" alt="">
+    <div class="product-details container p-0">
+        <div id="detail">
+            <div class="detail-img">
+                <img src="https://www.moby.com.vn/data/bt7/sua-tuoi-tiet-trung-vinamilk-100-co-duong-180ml-thung-48-hop-1_1623398664.jpg" alt="">
+            </div>
+            <div class="detail-info">
+                <h2 class="product-title">Sữa tươi Vinamilk</h2>
+                <p><span>Giá: </span>10.000vnd</p>
+                <p><span>Loại: </span>Sữa</p>
+                <p><span>Ngày Sản Xuất: </span>01-01-2022</p>
+                <p><span>Hạn Sử dụng: </span>01-03-2022</p>
+                <p><span>Số lượng: </span> 12</p>
+
+                <form action="" class="buy-form">
+                    <div class="counter">
+                        <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                        <input type="number" value="0">
+                        <span class="up" onClick='increaseCount(event, this)'>+</span>
+                    </div>
+                    <button class="ghost" id="addToCart">Thêm vào giỏ</button>
+                </form>
+
+            </div>
+
         </div>
-        <div class="detail-info">
-            <h2>Sữa tươi Vinamilk</h2>
-            <p><span>Giá: </span>10.000vnd</p>
-            <p> <span>Loại: </span>Sữa</p>
-            <p><span>Ngày Sản Xuất: </span>01-01-2022</p>
-            <p><span>Hạn Sử dụng: </span>01-03-2022</p>
-            <p><span>Số lượng: </span> 12</p>
-
-            <form action="" class="buy-form">
-                <div class="counter">
-                    <span class="down" onClick='decreaseCount(event, this)'>-</span>
-                    <input type="text" value="0">
-                    <span class="up" onClick='increaseCount(event, this)'>+</span>
-                </div>
-                <button class="ghost" id="addToCart">Thêm vào giỏ</button>
-            </form>
-
-        </div>
-
     </div>
 
     <script src="scripts/main.js"></script>

@@ -78,12 +78,13 @@
                         <div class="right-bar">
                             <!-- Search Form -->
                             <div class="sinlge-bar shopping">
-                                Welcome ADMIN,</a>
+                                Welcome <span class="session-user">Trung Tín</span>,</a>
                             </div>
-                            <div class="sinlge-bar">
-                                <a href="login.html" class="single-icon"><i class="fa fa-user-o" aria-hidden="true"></i>
-					LOG OUT</i
-                  ></a>
+                            <div class="sinlge-bar log-btn">
+                                <a href="login.html" class="single-icon">
+                                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                                    LOG OUT
+                                </a>
                             </div>
 
                         </div>
@@ -98,40 +99,69 @@
         </div>
     </header>
 
-    <button>Thêm Sản Phẩm</button>
-    <section class="product-list">
+    
+    <div class="products container p-0">
 
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Image</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Price</th>
-                    <th scope="col">Category</th>
-                    <th scope="col">Import Date</th>
-                    <th scope="col">Using Date</th>
-                    <th scope="col">Quantity</th>
-                    <th scope="col">Action</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td class="product-img"><img src="https://www.moby.com.vn/data/bt7/sua-tuoi-tiet-trung-vinamilk-100-co-duong-180ml-thung-48-hop-1_1623398664.jpg" alt=""></td>
-                    <td>Sữa tươi Vinamilk</td>
-                    <td>10.000vnd</td>
-                    <td>Sữa</td>
-                    <td>01-01-2022</td>
-                    <td>01-03-2022</td>
-                    <td>12</td>
-                    <td><button>Xóa</button>
-                        <button>Cập nhật</button></td>
-                </tr>
+        <button class="btn add-btn">Thêm Sản Phẩm</button>
+        <section class="product-list">
 
-            </tbody>
-        </table>
-    </section>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Image</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Category</th>
+                        <th scope="col">Import Date</th>
+                        <th scope="col">Expiry Date</th>
+                        <th scope="col">In Stock</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td class="product-img"><img src="https://www.moby.com.vn/data/bt7/sua-tuoi-tiet-trung-vinamilk-100-co-duong-180ml-thung-48-hop-1_1623398664.jpg" alt=""></td>
+                        <td>Sữa tươi Vinamilk</td>
+                        <td>10.000<span class="currency"> vnd</span></td>
+                        <td>Sữa</td>
+                        <td>01-01-2022</td>
+                        <td>01-03-2022</td>
+                        <td>12</td>
+                        <td class="action-col"><button><i class="fa fa-trash-o"></i></button>
+                            <button><i class="fa fa-pencil"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td class="product-img"><img src="https://www.moby.com.vn/data/bt7/sua-tuoi-tiet-trung-vinamilk-100-co-duong-180ml-thung-48-hop-1_1623398664.jpg" alt=""></td>
+                        <td>Sữa tươi Vinamilk</td>
+                        <td>10.000<span class="currency"> vnd</span></td>
+                        <td>Sữa</td>
+                        <td>01-01-2022</td>
+                        <td>01-03-2022</td>
+                        <td>12</td>
+                        <td class="action-col"><button><i class="fa fa-trash-o"></i></button>
+                            <button><i class="fa fa-pencil"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td class="product-img"><img src="https://www.moby.com.vn/data/bt7/sua-tuoi-tiet-trung-vinamilk-100-co-duong-180ml-thung-48-hop-1_1623398664.jpg" alt=""></td>
+                        <td>Sữa tươi Vinamilk</td>
+                        <td>10.000<span class="currency"> vnd</span></td>
+                        <td>Sữa</td>
+                        <td>01-01-2022</td>
+                        <td>01-03-2022</td>
+                        <td>12</td>
+                        <td class="action-col"><button><i class="fa fa-trash-o"></i></button>
+                            <button><i class="fa fa-pencil"></i></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </div>
 </body>
 
