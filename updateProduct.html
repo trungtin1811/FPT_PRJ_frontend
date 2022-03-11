@@ -9,9 +9,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!-- Title Tag  -->
-    <title>Eshop - User</title>
+    <title>Eshop - Update Product</title>
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="icon" type="image/png" href="" />
     <!-- Web Font -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet" />
 
@@ -20,19 +20,16 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.css" />
 
-    <!-- Table -->
-    <link rel="stylesheet" href="table.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="css/font-awesome.css" />
     <!-- Fancybox -->
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
     <!-- Themify Icons -->
     <link rel="stylesheet" href="css/themify-icons.css" />
 
     <link rel="stylesheet" href="style.css" />
 </head>
 
-<body class="js user">
+<body class="js">
     <!-- Header -->
     <header class="header shop">
         <!-- End Topbar -->
@@ -99,57 +96,53 @@
         </div>
     </header>
 
-    <div class="profile-container container p-0">
-        <h3>User Account</h3>
-        <div class="profile-wrapper col-12 p-0">
-            <div class="user-profile col-3 p-0">
-                <span><i class="fa fa-user-o"></i>My Account</span>
-                <div class="myprofile-dropdown">
-                    <a href="user.html" class="mp-dropdown-item active">Profile</a>
+    <div class="update-product-container container p-0">
+        <h3>Update Product</h3>
+        <div class="admin-product-wrapper">
+            <div class="product-attr">
+                <div class="product-header">Product ID</div>
+                <div class="product-input"><input type="text" readonly value="1"></div>
+            </div>
+            <div class="product-attr">
+                <div class="product-header">Product Name</div>
+                <div class="product-input"><input type="text" value="Sữa tươi Vinamilk"></div>
+            </div>
+            <div class="product-attr">
+                <div class="product-header">Image</div>
+                <div class="product-input pi-img">
+                    <img class="product-img-thumb" id="img-thumb" src="https://www.moby.com.vn/data/bt7/sua-tuoi-tiet-trung-vinamilk-100-co-duong-180ml-thung-48-hop-1_1623398664.jpg" alt="" >
+                    <input type="file" onchange="readURL(this);">
                 </div>
             </div>
-            <div class="profile-info col-9 pr-0">
-                <h4>My Profile</h4>
-                <span class="mp-caption">Manage your account information</span>
-                <hr>
-                <div class="information-wrapper">
-                    <table class="user-info">
-                        <tbody>
-                            <tr>
-                                <td class="info-type">User ID</td>
-                                <td class="info-input"><input class="user-id" type="text" readonly value="tin"></td>
-                            </tr>
-                            <tr>
-                                <td class="info-type">User Name</td>
-                                <td class="info-input"><input class="" type="text" value="Nguyen Trung Tin"></td>
-                            </tr>
-                            <tr>
-                                <td class="info-type">Role ID</td>
-                                <td class="info-input"><input class="user-id" type="text" readonly value="US"></td>
-                            </tr>
-                            <tr>
-                                <td class="info-type">Address</td>
-                                <td class="info-input"><input class="" type="text" value="12fsdf"></td>
-                            </tr>
-                            <tr>
-                                <td class="info-type">Birthday</td>
-                                <td class="info-input"><input class="" type="date" value="2001-11-18"></td>
-                            </tr>
-                            <tr>
-                                <td class="info-type">Phone Number</td>
-                                <td class="info-input"><input class="" type="text" value="0705365185"></td>
-                            </tr>
-                            <tr>
-                                <td class="info-type">Email:</td>
-                                <td class="info-input"><input class="" type="text" value="conan181101@gmail.com"></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <div class="update-pf-btn">
-                        UPDATE
-                    </div>
+            <div class="product-attr">
+                <div class="product-header">Price</div>
+                <div class="product-input"><input type="number"  value="10000"></div>
+            </div>
+            <div class="product-attr">
+                <div class="product-header">In Stock</div>
+                <div class="product-input"><input type="number" value="12"></div>
+            </div>
+            <div class="product-attr">
+                <div class="product-header">Category</div>
+                <div class="product-input">
+                    <select name="" id="">
+                        <option value="1" selected>Milk</option>
+                        <option value="2">Carb</option>
+                        <option value="3">Vegie</option>
+                    </select>
                 </div>
             </div>
+            <div class="product-attr">
+                <div class="product-header">Import Date</div>
+                <div class="product-input"><input type="date" value="2022-01-01"></div>
+            </div>
+            <div class="product-attr">
+                <div class="product-header">Expiry Date</div>
+                <div class="product-input"><input type="date" value="2022-03-01"></div>
+            </div>
+        </div>
+        <div class="update-product-btn">
+            UPDATE PRODUCT
         </div>
     </div>
 

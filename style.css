@@ -1498,7 +1498,7 @@ thead tr {
     text-transform: capitalize;
 }
 
-button:focus , input:focus{
+button:focus , .header input:focus{
     border: none;
     box-shadow: none;
     outline: none;
@@ -1757,4 +1757,143 @@ input::-webkit-inner-spin-button {
     margin-top: 15px;
     font-size: 20px;
     font-weight: bold;
+}
+
+.profile-wrapper {
+    margin-top: 30px;
+    display: flex;
+}
+
+.profile-wrapper h3{
+    font-weight: bold;
+}
+
+.user-profile{
+    height: 300px;
+    max-width: 180px;
+}
+
+
+.user-profile span i{
+    margin-right: 8px;
+    font-weight: bolder;
+}
+
+.user-profile > span{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.myprofile-dropdown{
+    margin-left: 30px;  
+}
+
+.myprofile-dropdown .mp-dropdown-item.active{
+    color: var(--orange)
+}
+
+.profile-info{
+    padding-left: 50px;
+    min-width: 960px;
+    border-left: 1px solid #d3d3d3;
+}
+
+.user-info tbody tr td.info-type{
+    width: 130px;
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.user-info{
+    border-spacing: 15px 8px;
+    border-collapse: separate;
+}
+
+.user-id{
+    border: none;
+}
+
+.user-info tbody tr td.info-input input{
+    width: 500px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+.update-pf-btn{
+    width: 150px;
+    height: 40px;
+    background: var(--orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 162px;
+}
+
+
+.add-product-container, .update-product-container{
+    margin-top: 30px;
+}
+
+.admin-product-wrapper{
+    margin-top: 30px;
+}
+
+.admin-product-wrapper .product-attr{
+    display: inline-block;
+    width:  49%;
+    margin-bottom: 15px;
+}
+
+.product-header{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.product-input input{
+    width: 70%;
+}
+
+.product-input select{
+    width: 70%;
+}
+
+.product-img-thumb{
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+
+.product-input.pi-img{
+    display: flex;
+    align-items: flex-end;
+}
+
+.product-input.pi-img img{
+    object-fit: scale-down;
+    max-width: 100px;
+}
+
+.update-product-container .admin-product-wrapper .product-img-thumb{
+    display: block;
+}
+
+.add-product-btn,.update-product-btn{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 8px;
 }

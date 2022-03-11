@@ -20,3 +20,14 @@ function decreaseCount(a, b) {
         input.value = value;
     }
 }
+
+function readURL(input) {
+    if (input.files && input.files[0]) {
+        var reader = new FileReader();
+        reader.onload = function (e) {
+            document.getElementById('img-thumb').src= e.target.result;
+            document.getElementById('img-thumb').style.display='block';
+        };
+        reader.readAsDataURL(input.files[0]);
+    }
+}
