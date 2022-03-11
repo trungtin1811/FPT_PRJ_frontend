@@ -32,7 +32,7 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 
-<body class="js">
+<body class="js confirm-order">
     <!-- Header -->
     <header class="header shop">
         <!-- End Topbar -->
@@ -100,7 +100,7 @@
         </div>
     </header>
     <div class="cart-wrapper container p-0">
-        <h3>Your Cart</h3>
+        <h3>Confirm Your Orders</h3>
         
         <div class="cart cart-items">
             <div class="cart-headers row mx-0">
@@ -121,20 +121,12 @@
                 <div class="cart-item-quantity col-2">
                     <div class="item-quantity">
                         <div class="input-group">
-                            <div class="quantity-ctrl minus" onClick='decreaseCount(event, this)'>-</div>
-                            <input class="input-quantity" type="number" name="" id="" value="1">
-                            <div class="quantity-ctrl plus" onClick='increaseCount(event, this)'>+</div>
+                            <input class="input-quantity" type="number" name="" id="" value="1" readonly>
                         </div>
                     </div>
                 </div>
                 <div class="cart-item-subtotal col-4">
                     <div class="item-subtotal">10.000 <span class="currency">vnd</span></div>
-                    <div class="cart-item-action">
-                        <div class="cart-remove-btn">
-                            <i class="fa fa-trash-o"></i>
-                            REMOVE
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="cart-item row mx-0">
@@ -149,20 +141,12 @@
                 <div class="cart-item-quantity col-2">
                     <div class="item-quantity">
                         <div class="input-group">
-                            <div class="quantity-ctrl minus" onClick='decreaseCount(event, this)'>-</div>
                             <input class="input-quantity" type="number" name="" id="" value="1">
-                            <div class="quantity-ctrl plus" onClick='increaseCount(event, this)'>+</div>
                         </div>
                     </div>
                 </div>
                 <div class="cart-item-subtotal col-4">
                     <div class="item-subtotal">10.000 <span class="currency">vnd</span></div>
-                    <div class="cart-item-action">
-                        <div class="cart-remove-btn">
-                            <i class="fa fa-trash-o"></i>
-                            REMOVE
-                        </div>
-                    </div>
                 </div>
             </div>
             <hr>
@@ -172,7 +156,7 @@
                     <span class="item-count">2 item(s)</span>
                 </div>
                 <div class="order-subtotal col-3">20.000 <span class="currency">vnd</span></div>
-                <div class="check-out-btn"><a href="checkout.html">CONFIRM</a></div>
+                <div class="check-out-btn"><a href="">CHECK OUT</a></div>
             </div>
 
         </div>

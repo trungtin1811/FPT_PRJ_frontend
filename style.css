@@ -1699,3 +1699,9 @@ input::-webkit-inner-spin-button {
 .cart-headers div:last-child{
     padding-right: 40px;
 }
+
+.confirm-order .cart .cart-item .cart-item-quantity .input-group{
+    border:none;
+    text-align: center;
+    justify-content: center;
+}
